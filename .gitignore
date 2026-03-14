@@ -60,3 +60,7 @@ benchmarks/*.log
 *.zip
 *.tar
 *.gz
+package.json
+package-lock.json
+benchmarks/package.json
+benchmarks/package-lock.json
