@@ -1,6 +1,6 @@
 ## Performance Benchmark
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 Benchmark tool: wrk  
 Machine: Debian Linux  

@@ -1,8 +1,62 @@
-*.so
-*.h
-venv/
+# -----------------
+# Python
+# -----------------
 __pycache__/
-*.pyc
-node_modules/
-dist/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Python build artifacts
 build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# -----------------
+# Go build outputs
+# -----------------
+*.so
+*.a
+*.o
+*.out
+
+# If you rebuild the Go shared library locally
+machpoint/libmachpoint.so
+
+# -----------------
+# Node
+# -----------------
+node_modules/
+npm-debug.log*
+
+# -----------------
+# IDE / Editor
+# -----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Benchmark temp files
+# -----------------
+benchmarks/*.log
+
+# -----------------
+# Misc
+# -----------------
+*.zip
+*.tar
+*.gz
