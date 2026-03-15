@@ -5,7 +5,7 @@
 Benchmark tool: wrk  
 Machine: Debian Linux  
 Duration: 10 seconds  
-Connections: 5  
+Connections: 60  
 
 
 MachPoint achieves significantly higher throughput by delegating HTTP networking to Go's fasthttp while exposing a Python developer interface.
