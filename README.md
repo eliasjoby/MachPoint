@@ -275,6 +275,22 @@ MachPoint applies this idea to web APIs: keep Python for the developer experienc
 - Backend services where throughput is critical
 - Exploring polyglot runtime architectures
 
+___
+
+TLDR :-
+
+It's basically a hybrid backend framework that combines Go's high-performance runtime engine with Python's developer-friendly API layer.
+
+The Go layer handles things like
+- HTTP serving
+- concurrency
+- scheduling, and
+- system-level performance
+
+while Python acts as the scripting layer for writing APIs and business logic.
+
+So the goal is to get Go-level performance while keeping Python-level developer productivity.
+
 ---
 
 ##  License
